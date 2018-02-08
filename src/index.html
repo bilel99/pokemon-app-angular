@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
   <title>PokemonAppAngular</title>
@@ -7,8 +7,16 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Chargement de la librairie Materialize design -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- POLYFILL Comptabilité date && current pipe angular for safarie and last browser -->
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>
+
 </head>
 <body>
-  <app-root></app-root>
+  <!-- Contenue de l'application -->
+  <pokemon-app></pokemon-app>
+
 </body>
 </html>
